@@ -1,0 +1,7 @@
+to deploy backend through local host only:
+first run the backend terminal nodemon .\index.js
+copy ngrok application to the project directory
+open the application
+run ngrok http 5000
+we will get a url 
+copy the url and paste it in the frontend url section for api routing.
