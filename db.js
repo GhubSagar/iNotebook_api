@@ -2,7 +2,7 @@
 //this is connection to database
 
 const mongoose= require('mongoose');
-const mongoURI= 'mongodb+srv://sapytrash:Zp0Nsf8T94vkESbv@cluster0.itrvi.mongodb.net/iNotebook'
+const mongoURI= process.env.MONGO_URI
 //mongodb+srv://sapytrash:Zp0Nsf8T94vkESbv@cluster0.itrvi.mongodb.net/
 // mongodb://localhost:27017/inotebook
 const connectToMongo= async ()=>{
